@@ -1,5 +1,4 @@
 
-
 import java.util.*;
 import java.lang.*;
 import java.io.*;
@@ -55,5 +54,16 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
+		A objA=new A();
+		B objB=new B();
+		C objC=new C();
+		objA.fun1();objA.fun2();
+		objB.fun3();objB.fun4();
+		objC.fun5();objC.fun6();
+		objA.print();
+		A obj1=new C();
+		obj1.print();
+		A obj2=new B();
+		obj2.print();
 	}
 }
